@@ -1,1 +1,16 @@
 <h1>Multiplication Table of 5</h1>
+
+<table>
+  <thead>
+    <th>Number</th>
+    <th>Factor</th>
+    <th>Product</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of get10()">
+      <td>5</td>
+      <td>x {{ n }}</td>
+      <td>= {{ n * 5 }}</td>
+    </tr>
+  </tbody>
+</table>
