@@ -1,0 +1,25 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  border: 2px solid grey;
+  margin: 0px 30vw;
+}
+
+th,
+td {
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+}

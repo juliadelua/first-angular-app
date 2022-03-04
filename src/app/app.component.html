@@ -1,0 +1,16 @@
+<h1>This App's got Angles</h1>
+<hr />
+
+<div>
+  <a [routerLink]="['/']">HOME</a> <a [routerLink]="['/about']">ABOUT</a>
+  <a [routerLink]="['/numbers']">NUMBERS</a>
+</div>
+<hr />
+
+<!-- Below in the following tags is where page will render our components
+Using <a> and href will work as regular navigation, but it is slow, on angular we use another method, which is faster and doesn't reload the page -> [routerLink]="['/']"
+
+  This routerLink is an array, and may receive parameters
+-->
+
+<router-outlet></router-outlet>

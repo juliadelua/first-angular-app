@@ -1,0 +1,23 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
